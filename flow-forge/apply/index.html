@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Apply — The Flow Forge</title>
+</head>
+<body>
+  <h1>The Flow Forge — Application</h1>
+  <p>Elite 6-week performance lab. 8 seats only.</p>
+
+  <form action="https://formspree.io/f/yourcode" method="POST">
+    
+    <label>
+      Full Name:
+      <br>
+      <input type="text" name="name" required>
+    </label>
+    <br><br>
+
+    <label>
+      Email:
+      <br>
+      <input type="email" name="email" required>
+    </label>
+    <br><br>
+
+    <label>
+      Current English Level:
+      <br>
+      <select name="level" required>
+        <option value="">Select one</option>
+        <option>A2</option>
+        <option>B1</option>
+        <option>B2</option>
+        <option>C1</option>
+      </select>
+    </label>
+    <br><br>
+
+    <label>
+      What situations do you struggle with most?
+      <br>
+      <textarea name="struggles" rows="4" required></textarea>
+    </label>
+    <br><br>
+
+    <label>
+      Why do you want to join The Flow Forge?
+      <br>
+      <textarea name="motivation" rows="4" required></textarea>
+    </label>
+    <br><br>
+
+    <button type="submit">Apply for Review</button>
+  </form>
+
+  <p>You will receive a response within 48 hours.</p>
+</body>
+</html>
